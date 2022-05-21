@@ -12,7 +12,7 @@
 
         <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-p" remote="XS" revision="aosp" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-p" remote="XS" revision="12" />
-        <remove-project name="vendor_aosp" /> <project path="vendor/aosp" name="vendor_aosp" remote="XS" revision="one" />
+        <remove-project name="vendor_aosp" />
         <project path="vendor/aosp" name="vendor_aosp" remote="XS" revision="twelve-plus" />
         
         
