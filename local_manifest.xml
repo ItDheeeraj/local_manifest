@@ -4,9 +4,7 @@
         
         <remote name="imsurajxd"
                 fetch="https://github.com/imsurajxd" />
-        <remote name="prpr"
-                fetch="https://github.com/ImPrashantt" />
-
+        
 <!-- device trees -->
 
         <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-p" remote="imsurajxd" revision="aosp" />
@@ -19,6 +17,6 @@
 
 <!-- kernel -->
         
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="prpr" revision="eas-caf" clone-depth="1" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="imsurajxd" revision="eas-caf" clone-depth="1" />
 
 </manifest>
